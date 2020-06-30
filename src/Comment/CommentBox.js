@@ -9,7 +9,13 @@ React.Component
     constructor(props){
         super(props)
         this.state={
-            commentlist:this.props.data
+            commentlist:
+             [
+    {name:'张三', date:'2009-09-20',comment:'这很棒1！！！'},
+    {name:'赵六', date:'2009-09-20',comment:'这很棒2！！！'},
+    {name:'李四', date:'2009-09-20',comment:'这很棒3！！！'},
+    {name:'王五', date:'2009-09-20',comment:'这很棒4！！！'}
+] 
         }
     }
     addComment(obj){
